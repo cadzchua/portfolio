@@ -1,6 +1,8 @@
 import React from "react";
 import { Spotlight } from "./ui/Spotlight";
 import { TextGenerateEffect } from "./ui/TextGenerateEffect";
+import { useTypewriter, Cursor } from "react-simple-typewriter";
+import TypeWriterEffect from "./ui/TypeWriterEffect";
 
 const Main = () => {
   return (
@@ -34,9 +36,13 @@ const Main = () => {
             words="Cadden Chua"
           />
 
-          <p className="text-center md: tracking-wider
-          mb-4 text-sm md:text-lg lg:text-2xl">
-            I'm based in Singapore.
+          <TypeWriterEffect />
+
+          <p
+            className="text-center md: tracking-wider
+          mb-4 text-sm md:text-lg lg:text-2xl"
+          >
+            based in Singapore.
           </p>
         </div>
       </div>
