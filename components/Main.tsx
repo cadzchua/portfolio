@@ -1,8 +1,9 @@
 import React from "react";
 import { Spotlight } from "./ui/Spotlight";
 import { TextGenerateEffect } from "./ui/TextGenerateEffect";
-import { useTypewriter, Cursor } from "react-simple-typewriter";
-import TypeWriterEffect from "./ui/TypeWriterEffect";
+import { FlipWords } from "./ui/FlipWords";
+import MagicButton from "./ui/MagicButton";
+import { IoNavigate } from "react-icons/io5";
 
 const Main = () => {
   return (
@@ -35,15 +36,24 @@ const Main = () => {
             className="text-center text-[40px] md:text-5xl lg:text-6xl text-blue-100"
             words="Cadden Chua"
           />
-
-          <TypeWriterEffect />
-
-          <p
-            className="text-center md: tracking-wider
-          mb-4 text-sm md:text-lg lg:text-2xl"
-          >
+          <div className="text-center md: tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
+            I am
+            <FlipWords
+              words={["a Developer", "a Programmer", "an AI Engineer"]}
+              // duration={3000}
+              className="text-center md: tracking-wider
+              text-sm md:text-lg lg:text-2xl"
+            />
             based in Singapore.
-          </p>
+          </div>
+          <a href="#about">
+            <MagicButton
+              title="Show My Work"
+              icon={<IoNavigate />}
+              position="right"
+              otherClasses="gap-3"
+            />
+          </a>
         </div>
       </div>
     </div>
