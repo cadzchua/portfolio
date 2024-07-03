@@ -1,3 +1,4 @@
+import Aboutme from "@/components/Aboutme";
 import Contact from "@/components/Contact";
 import Grid from "@/components/Grid";
 import Main from "@/components/Main";
@@ -13,6 +14,7 @@ export default function Home() {
       <div className="max-w-7xl w-full">
         <FloatingNav navItems={navItems} />
         <Main />
+        <Aboutme />
         <Grid />
         <Contact />
       </div>

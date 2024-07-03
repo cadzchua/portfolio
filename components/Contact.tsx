@@ -1,5 +1,4 @@
 import { socialMedia } from "@/data/Contacts";
-import React from "react";
 
 const Contact = () => {
   return (
