@@ -36,7 +36,7 @@ const Main = () => {
             I am
             <FlipWords
               words={["a Developer", "a Programmer", "an AI Engineer"]}
-              // duration={3000}
+              duration={1500}
               className="text-center md: tracking-wider
               text-sm md:text-lg lg:text-2xl"
             />
