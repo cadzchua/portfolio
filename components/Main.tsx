@@ -24,15 +24,18 @@ const Main = () => {
 
       <div className="flex justify-center relative my-20 z-10">
         <div className="max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] flex flex-col items-center justify-center">
-          <h2 className="uppercase tracking-widest text-xs text-center text-blue-100 max-w-80">
-            Hello, my name is
-          </h2>
+          <div className="flex items-center">
+            <img src="/monkey.png" className="w-12 h-12 mr-3" />
 
+            <h2 className="uppercase tracking-widest text-xs text-center text-blue-100 max-w-80">
+              Hello, my name is
+            </h2>
+          </div>
           <TextGenerateEffect
             className="text-center text-[40px] md:text-5xl lg:text-6xl text-blue-100"
             words="Cadden Chua"
           />
-          <div className="text-center md: tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
+          <div className="text-center md: tracking-wider mb-10 text-sm md:text-lg lg:text-2xl">
             I am
             <FlipWords
               words={["a Developer", "a Programmer", "an AI Engineer"]}
