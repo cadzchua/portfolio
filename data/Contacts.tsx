@@ -11,4 +11,9 @@ export const socialMedia = [
       img: <SocialIcon network="linkedin" style={{ height: 40, width: 40}}
       url="https://www.linkedin.com/in/caddenchua/" />,
     },
+    {
+      id: "3",
+      img: <SocialIcon network="instagram" style={{ height: 40, width: 40}}
+      url="https://www.instagram.com/cadzchua/" />,
+    },
   ];
