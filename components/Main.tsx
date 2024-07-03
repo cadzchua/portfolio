@@ -7,7 +7,7 @@ import { IoNavigate } from "react-icons/io5";
 
 const Main = () => {
   return (
-    <div className="pb-20 pt-36">
+    <div className="pb-36 pt-36">
       <div>
         <Spotlight
           className="-top-40 -left-10 
@@ -46,7 +46,7 @@ const Main = () => {
             />
             based in Singapore.
           </div>
-          <a href="#about">
+          <a href="#projects">
             <MagicButton
               title="Show My Work"
               icon={<IoNavigate />}

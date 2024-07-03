@@ -4,15 +4,20 @@ import { gridData } from '@/data/GridData'
 
 const Grid = () => {
   return (
-    <section id='about'>
-        <BentoGrid>
-            {gridData.map
-            ((item, i) =>(
-                <BentoGridItem 
-                id={item.id} key={item.id} title={item.title} description={item.description}/>
-            ))}
-        </BentoGrid>
+    <div>
+      <section id='projects'>
+          <BentoGrid>
+              {gridData.map
+              ((item, i) =>(
+                  <BentoGridItem 
+                  id={item.id} key={item.id} title={item.title} description={item.description}/>
+              ))}
+          </BentoGrid>
+      </section>
+      <section id="experience">
+      <h2>Hi</h2>
     </section>
+  </div>
   )
 }
 
