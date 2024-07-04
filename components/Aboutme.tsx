@@ -1,7 +1,7 @@
 import { aboutMe } from "@/data/Aboutme";
-import { AnimatedTooltip } from "./ui/AnimatedToolTip";
 import { BackgroundGradient } from "./ui/BackgroundGradient";
 import { Meteors } from "./ui/MeteorEffect";
+import TooltipUI from "./ui/Tooltip";
 
 const Aboutme = () => {
   return (
@@ -31,18 +31,15 @@ const Aboutme = () => {
         &emsp; During my free time, I like to play mobile/PC games and also exercise to keep myself fit.
         </p>
       </BackgroundGradient>
-    <div className=" w-full relative max-w-md mx-auto mb-20">
+    <div className=" w-[70%] relative mx-auto mb-20">
         <div className="absolute inset-0 h-full w-full bg-gradient-to-r from-teal-500 to-green-500 transform scale-[0.95] rounded-full blur-3xl" />
-            <div className="relative shadow-xl bg-gray-900 border border-gray-800  px-6 py-8 h-full overflow-hidden rounded-3xl flex flex-col justify-end items-center">
+            <div className="relative shadow-xl bg-gray-900 border border-white  px-6 py-8 h-full overflow-hidden rounded-3xl flex flex-col justify-end items-center">
         
 
-                <p className= "text-center justify-center font-bold text-xl text-white mb-4 z-50">
+                <p className= "text-center justify-center font-bold text-xl text-white mb-10 z-50">
                     Languages Used
                 </p>
-                <div className="flex flex-row items-center justify-center mb-10 w-full">
-                    <AnimatedTooltip items={aboutMe}/>
-                </div>
-        
+                <TooltipUI items={aboutMe}/>
                 <Meteors number={20} />
             </div>
         </div>
