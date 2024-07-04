@@ -1,51 +1,56 @@
-export const aboutMe = [
+export const categories = [
   {
-    id: 1,
-    name: "Python",
-    designation: "",
-    image:
-    "/python_language.png",
+    name: 'Frontend',
+    items: [
+      
+    ],
   },
   {
-    id: 2,
-    name: "C",
-    designation: "",
-    image:
-    "/c_language.png",
+    name: 'Backend',
+    items: [
+      
+    ],
   },
   {
-    id: 3,
-    name: "Javascript",
-    designation: "",
-    image:
-    "/javascript_language.jpg",
-   },
-   {
-    id: 4,
-    name: "Typescript",
-    designation: "",
-    image:
-    "/typescript_language.png",
-   },
-   {
-    id: 5,
-    name: "HTML",
-    designation: "",
-    image:
-    "/html_language.png",
-   },
-   {
-    id: 6,
-    name: "CSS",
-    designation: "",
-    image:
-    "/css_language.png",
-   },
-   {
-    id: 7,
-    name: "Verilog",
-    designation: "",
-    image:
-    "/verilog_language.png",
-   },
-];
+    name: 'AI/ML',
+    items: [
+      
+    ],
+  },
+  {
+    name: 'Languages',
+    items: [
+      {
+        id: 1,
+        name: "Python",
+        image: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg"
+    
+      },
+      {
+        id: 2,
+        name: "C",
+        image: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/c/c-original.svg"
+      },
+      {
+        id: 3,
+        name: "JavaScript",
+        image: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg"
+      },
+      {
+        id: 4,
+        name: "TypeScript",
+        image: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg"
+      },
+      {
+        id: 5,
+        name: "HTML",
+        image: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg"
+      },
+      {
+        id: 6,
+        name: "CSS",
+        image: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg"
+      },
+    ],
+  },
+]
