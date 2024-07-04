@@ -5,7 +5,7 @@ import { FaLocationArrow } from "react-icons/fa";
 const Contact = () => {
   return (
     <footer id="contact" className="w-full pt-20 pb-10">
-      <h1 className="md:text-4xl text-2xl uppercase font-bold text-purple text-center mb-10">
+      <h1 className="md:text-4xl text-2xl uppercase font-bold text-purple text-center mb-20">
         Contact
       </h1>
       <div className="md:text-lg text-sm text-justify mx-10">
@@ -17,9 +17,14 @@ const Contact = () => {
           <br />I aim to make a meaningful impact in the field of technology.
         </p>
       </div>
-      <div className="flex items-center justify-center h-full mt-20">
+      <div className="flex items-center justify-center h-full mt-40 mb-80">
         <a href="https://www.linkedin.com/in/caddenchua/">
-          <MagicButton otherClasses="gap-2" title="Reach out to me" icon={<FaLocationArrow />} position="right" />
+          <MagicButton
+            otherClasses="gap-2"
+            title="Reach out to me"
+            icon={<FaLocationArrow />}
+            position="right"
+          />
         </a>
       </div>
 
