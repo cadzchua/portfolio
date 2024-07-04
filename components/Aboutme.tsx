@@ -47,7 +47,7 @@ const Aboutme = () => {
               </TabList>
               <TabPanels className="mt-3">
                 {categories.map(({ name, items }) => (
-                  <TabPanel key={name} className="rounded-xl bg-white/5 p-3">
+                  <TabPanel key={name} className="rounded-lg bg-white/20 p-3">
                     <ul className="flex-wrap gap-4 justify-evenly grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2">
                       {items.map((item) => (
                         <li

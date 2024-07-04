@@ -30,7 +30,8 @@
     "react-simple-typewriter": "^5.0.1",
     "react-social-icons": "^6.16.0",
     "tailwind-merge": "^2.3.0",
-    "tailwindcss-animate": "^1.0.7"
+    "tailwindcss-animate": "^1.0.7",
+    "tech-stack-icons": "^2.0.3"
   },
   "devDependencies": {
     "@types/node": "^20",
