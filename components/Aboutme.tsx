@@ -37,7 +37,7 @@ const Aboutme = () => {
         
 
                 <p className= "text-center justify-center font-bold text-xl text-white mb-10 z-50">
-                    Languages Used
+                    Languages
                 </p>
                 <TooltipUI items={aboutMe}/>
                 <Meteors number={20} />
