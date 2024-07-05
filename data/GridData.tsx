@@ -8,22 +8,31 @@ import {
 } from "@tabler/icons-react";
 
 function ItemImage({ src, href }: { src: string; href?: string }) {
-  return (
+  const image = (
+    <Image
+      className="h-full w-full object-cover"
+      width={500}
+      height={500}
+      src={src ?? ""}
+      alt="project-img"
+    />
+  );
+
+  return href ? (
     <Link
       target="_blank"
-      href={href ?? ""}
-      className="flex flex-1 w-full h-full min-h-[6rem] rounded-xl overflow-hidden  "
+      href={href}
+      className="flex flex-1 w-full h-full min-h-[6rem] rounded-xl overflow-hidden"
     >
-      <Image
-        className="h-full w-full object-cover"
-        width={500}
-        height={500}
-        src={src ?? ""}
-        alt="project-img"
-      />
+      {image}
     </Link>
+  ) : (
+    <div className="flex flex-1 w-full h-full min-h-[6rem] rounded-xl overflow-hidden">
+      {image}
+    </div>
   );
 }
+
 
 export const items = [
   {
