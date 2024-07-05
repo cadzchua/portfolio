@@ -6,10 +6,10 @@ import { Tab, TabGroup, TabList, TabPanel, TabPanels } from '@headlessui/react'
 const Aboutme = () => {
   return (
     <>
-      <section id="aboutme">
+      <section id="aboutme" className="pt-20">
         <BackgroundGradient
           className="rounded-[22px] max-w-full h-200 p-7 bg-white dark:bg-zinc-900"
-          containerClassName="mx-auto max-w-[80%] sm:max-w-[70%] mb-20"
+          containerClassName="mx-auto max-w-[80%] sm:max-w-[70%] mb-10"
         >
           <img
             src="/profile.jpeg"
@@ -32,7 +32,7 @@ const Aboutme = () => {
           &emsp; During my free time, I like to play mobile/PC games and also exercise to keep myself fit.
           </p>
         </BackgroundGradient>
-        <div className="flex h-screen w-full justify-center pt-24 px-4">
+        <div className="flex w-full justify-center pt-24 px-4 mb-40">
           <div className="w-full max-w-md">
             <TabGroup>
               <TabList className="flex gap-4">

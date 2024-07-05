@@ -5,7 +5,7 @@ import { FaLocationArrow } from "react-icons/fa";
 const Contact = () => {
   return (
     <footer id="contact" className="w-full pt-20 pb-10">
-      <h1 className="md:text-4xl text-2xl uppercase font-bold text-purple text-center mb-20">
+      <h1 className="md:text-4xl text-3xl font-bold text-purple text-center mb-20">
         Contact
       </h1>
       <div className="md:text-lg text-sm text-justify mx-10">

@@ -21,7 +21,7 @@ const Main = () => {
         <Spotlight className="top-28 left-80 h-[80vh] w-[50wh]" fill="blue" />
       </div>
 
-      <div className="flex justify-center relative my-20 z-10">
+      <div className="flex justify-center relative my-40 z-10"> {/* change here for the top margin `my` */} 
         <div className="max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] flex flex-col items-center justify-center">
           <div className="flex items-center">
             <img src="/monkey.png" className="w-12 h-12 mr-3" />
