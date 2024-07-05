@@ -1,42 +1,54 @@
-export const gridData = [
+import Image from "next/image";
+import Link from "next/link";
+import {
+  IconClipboardCopy,
+  IconFileBroken,
+  IconSignature,
+  IconTableColumn,
+} from "@tabler/icons-react";
+
+function ItemImage({ src, href }: { src: string; href?: string }) {
+  return (
+    <Link
+      target="_blank"
+      href={href ?? ""}
+      className="flex flex-1 w-full h-full min-h-[6rem] rounded-xl overflow-hidden  "
+    >
+      <Image
+        className="h-full w-full object-cover"
+        width={500}
+        height={500}
+        src={src ?? ""}
+        alt="project-img"
+      />
+    </Link>
+  );
+}
+
+export const items = [
   {
-    id: 1,
-    title: "I prioritize client collaboration, fostering open communication ",
-    description: "",
-    className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
-    imgClassName: "w-full h-full",
-    titleClassName: "justify-end",
-    img: "",
-    spareImg: "",
+    title: "Shopping List App",
+    description:
+      "Streamline your shopping experience with robust database capabilities for managing items.",
+    header: <ItemImage src="/shoppinglist.png" />,
+    icon: <IconClipboardCopy className="h-4 w-4 text-neutral-500" />,
   },
   {
-    id: 2,
-    title: "I'm very flexible with time zone communications",
-    description: "",
-    className: "lg:col-span-2 md:col-span-3 md:row-span-2",
-    imgClassName: "",
-    titleClassName: "justify-start",
-    img: "",
-    spareImg: "",
+    title: "CommViz",
+    description: "Illuminate communication through visualisation.",
+    header: <ItemImage src="/commviz.png" />,
+    icon: <IconFileBroken className="h-4 w-4 text-neutral-500" />,
   },
   {
-    id: 3,
-    title: "My tech stack",
-    description: "I constantly try to improve",
-    className: "lg:col-span-2 md:col-span-3 md:row-span-2",
-    imgClassName: "",
-    titleClassName: "justify-center",
-    img: "",
-    spareImg: "",
+    title: "4 Color Card Game App",
+    description: "Effortlessly manage player scores and balances.",
+    header: <ItemImage src="/ssp.png" />,
+    icon: <IconTableColumn className="h-4 w-4 text-neutral-500" />,
   },
   {
-    id: 4,
-    title: "Tech enthusiast with a passion for development.",
-    description: "",
-    className: "lg:col-span-2 md:col-span-3 md:row-span-1",
-    imgClassName: "",
-    titleClassName: "justify-start",
-    img: "/grid.svg",
-    spareImg: "/b4.svg",
+    title: "LocateTheShip",
+    description: "Discover the beauty of thoughtful and functional design.",
+    header: <ItemImage src="/locatetheship.png" />,
+    icon: <IconSignature className="h-4 w-4 text-neutral-500" />,
   },
 ];
