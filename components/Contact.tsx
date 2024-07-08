@@ -21,7 +21,7 @@ const Contact = () => {
         <a href="https://www.linkedin.com/in/caddenchua/">
           <MagicButton
             otherClasses="gap-2"
-            title="Reach out to me"
+            title="Reach Out To Me"
             icon={<FaLocationArrow />}
             position="right"
           />
