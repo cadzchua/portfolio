@@ -22,14 +22,13 @@ const Aboutme = () => {
             About Me
           </p>
           <p className="sm:text-sm lg:text-lg text-xs text-justify sm:mx-8 mx-5  text-neutral-600 dark:text-neutral-400">
-          &emsp; I am a freshman student at Nanyang Technological University, 
-          I am passionate about software development and AI/ML. 
-          I like to learn new things everyday and I also participate in CTFs. 
+          &emsp; I am a freshman student at Nanyang Technological University and am passionate about software development and AI/ML. 
+          I like to learn new things everyday to create new solutions to solve problems. Hence, I participate in Capture the Flag (CTF) to challenge myself. 
           I am looking to specialise in the field of Artificial Intelligence (AI) 
-          as it is really interesting that humans are trying to create an artificial "brain".
+          as it is really fascinating that humans are trying to mimick an artificial &quot;brain&quot;.
           <br />
           <br />
-          &emsp; During my free time, I like to play mobile/PC games and also exercise to keep myself fit.
+          &emsp; During my free time, I like to play mobile/PC games and exercise to keep myself fit.
           </p>
         </BackgroundGradient>
         <div className="flex w-full justify-center pt-24 px-4 mb-40">
