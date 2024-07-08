@@ -42,6 +42,7 @@ const config = {
           "100": "#E4ECFF",
         },
         purple: "#CBACF9",
+        grey: "#6B7280",
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",
@@ -82,7 +83,7 @@ const config = {
         sm: "calc(var(--radius) - 4px)",
       },
       keyframes: {
-        "meteor": {
+        meteor: {
           "0%": { transform: "rotate(215deg) translateX(0)", opacity: "1" },
           "70%": { opacity: "1" },
           "100%": {

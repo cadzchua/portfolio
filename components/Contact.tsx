@@ -29,8 +29,8 @@ const Contact = () => {
       </div>
 
       <div className="flex mt-16 flex-col justify-between items-center">
-        <p className="md:text-base text-sm md:font-normal font-light">
-          Copyright © 2024 Cadden
+        <p className="md:text-base text-sm md:font-normal font-light text-grey">
+          © 2024 Cadden Chua. All rights reserved.
         </p>
         <div className="flex items-center md:gap-5 gap-2 my-3 mt-5">
           {socialMedia.map((profile) => (
