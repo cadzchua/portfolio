@@ -65,6 +65,18 @@ export const categories = [
         image:
           "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/docker/docker-original.svg",
       },
+      {
+        id: 4,
+        name: "Kafka",
+        image:
+          "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/apachekafka/apachekafka-original.svg",
+      },
+      {
+        id: 4,
+        name: "gRPC",
+        image:
+          "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/grpc/grpc-original.svg",
+      },
     ],
   },
   {
