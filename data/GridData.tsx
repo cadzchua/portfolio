@@ -33,7 +33,6 @@ function ItemImage({ src, href }: { src: string; href?: string }) {
   );
 }
 
-
 export const items = [
   {
     title: "Shopping List App",
@@ -56,7 +55,7 @@ export const items = [
   },
   {
     title: "LocateTheShip",
-    description: "Discover the beauty of thoughtful and functional design.",
+    description: "Streaming real-time maritime data for dynamic tracking.",
     header: <ItemImage src="/locatetheship.png" />,
     icon: <IconSignature className="h-4 w-4 text-neutral-500" />,
   },
