@@ -34,7 +34,7 @@ const Aboutme = () => {
         <div className="flex w-full justify-center pt-24 px-4 mb-40">
           <div className="w-full max-w-md">
             <TabGroup>
-              <TabList className="flex gap-4">
+              <TabList className="sm:flex grid flex-wrap gap-4">
                 {categories.map(({ name }) => (
                   <Tab
                     key={name}
